@@ -1,0 +1,62 @@
+h1 {
+        color :brown;
+}
+
+main
+{
+        text-align: center;
+        background-color: rgb(194, 194, 213);
+}
+
+header
+{
+        text-align: center;
+        background-color: rgb(230, 231, 240);
+}
+
+footer
+{
+        width: 100;
+
+        text-align: center;
+        background-color: blanchedalmond;
+}
+
+
+h2
+{
+        text-align: center;
+        background-color:brown;
+}
+ 
+h3
+{
+        text-align: center;
+        background-color: aliceblue;
+}
+
+h4
+{
+        text-align: center;
+        background-color:chartreuse;
+}
+
+h5
+{
+        text-align: center;
+        background-color:burlywood;
+}
+
+h6
+{
+        text-align: center;
+        background-color:floralwhite;
+}
+
+
+p {
+        font-family: verdana;
+        font-size: 20px;
+        background-color: bisque;
+        text-align: center;
+      }

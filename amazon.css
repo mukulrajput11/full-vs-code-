@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #232f3e;
+        padding: 10px 20px;
+        color: white;
+    }
+    
+    .logo img {
+        width: 100px;
+    }
+    
+    .search-bar {
+        flex-grow: 1;
+        margin: 0 20px;
+        display: flex;
+    }
+    
+    .search-bar input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .search-bar button {
+        padding: 10px 20px;
+        background-color: #f3a847;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .cart {
+        font-size: 18px;
+    }
+    
+    .cart img {
+        width: 24px;
+        vertical-align: middle;
+    }
+    
+    nav {
+        background-color: #131a22;
+        padding: 10px 20px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .banner img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .products {
+        padding: 20px;
+    }
+    
+    .products h2 {
+        text-align: center;
+    }
+    
+    .product-grid {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .product {
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        width: 30%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    
+    .product img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .product h3 {
+        margin: 10px 0;
+    }
+    
+    .product p {
+        font-size: 20px;
+        color: green;
+    }
+    
+    button {
+        padding: 10px 15px;
+        background-color: #f3a847;
+        border: none;
+        cursor: pointer;
+    }
+    
+    footer {
+        background-color: #232f3e;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+    

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="calculater.css">
+        
+</head>
+
+
+</b>
+</b>
+<body>
+
+    <header>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/universal/2-0-1/vendor/font-awesome/css/font-awesome.min.css">
+    <div class="top-bar">
+            <div class="container">
+              <div class="row d-flex align-items-center">
+                <div class="col-md-6 d-md-block d-none">
+                  <p>Contact us on +91 7505997591 or mukulrajput653@gmail.com  </p>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex justify-content-md-end justify-content-between">
+                    <ul class="list-inline contact-info d-block d-md-none">
+                      <li class="list-inline-item"><a href="#"><i class="fa fa-phone"></i></a></li>
+                      <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                    <div class="login"><a href="#" data-toggle="modal" data-target="#login-modal" class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Sign In</span></a><a href="customer-register.html" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Sign Up</span></a></div>
+                    <ul class="social-custom list-inline">
+                      <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                      <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <main>
+      
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="deleteLast()">DEL</button>
+            <button onclick="appendCharacter('%')">%</button>
+            <button onclick="appendCharacter('/')">/</button>
+            
+            <button onclick="appendCharacter('7')">7</button>
+            <button onclick="appendCharacter('8')">8</button>
+            <button onclick="appendCharacter('9')">9</button>
+            <button onclick="appendCharacter('*')">*</button>
+            
+            <button onclick="appendCharacter('4')">4</button>
+            <button onclick="appendCharacter('5')">5</button>
+            <button onclick="appendCharacter('6')">6</button>
+            <button onclick="appendCharacter('-')">-</button>
+            
+            <button onclick="appendCharacter('1')">1</button>
+            <button onclick="appendCharacter('2')">2</button>
+            <button onclick="appendCharacter('3')">3</button>
+            <button onclick="appendCharacter('+')">+</button>
+            
+            <button onclick="appendCharacter('0')">0</button>
+            <button onclick="appendCharacter('.')">.</button>
+            <button onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+      
+      <div class="container">
+        <!-- <h3>calculater</h3> -->
+            <hr>
+                <div class="text-center center-block">
+                  <p>CALCULATER</p>
+                    <br />
+                        <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                      <a href="mailto:mukulrajput653@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+         
+    </footer>
+</main>
+
+    <script src="calculater.js"></script>
+
+
+
+        
+</body>
+</html>

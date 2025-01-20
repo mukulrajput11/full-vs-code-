@@ -1,0 +1,113 @@
+ *{
+        margin: 0px;
+       
+}
+
+.navbar
+{
+        background-image: linear-gradient(to right orange white green);
+        background-color: #9322de;
+        display: flex;
+       
+        /* color: aliceblue; */
+        height: 60px;
+        /* position: relative; */
+        position: stickly;
+        top: o;
+        border-radius: 0px 0px 50px 50px;
+} 
+.logo
+{
+        background-color: rgba(206, 206, 201, 0.415);
+        /* display:inline; */
+        /* width: 30px; */
+        /* position: relative; */
+        
+
+}
+.menu
+{
+        background-color: rgb(134, 16, 245);
+        /* width: 70px; */
+        position: absolute;
+        /* right: 0px; */
+        height: 62px;
+       
+}
+.menu ul li
+{
+        align-content: center;
+   display: inline-block;
+   border: 2px solid rgb(216, 189, 10);
+   width: 180px;
+   text-align: center;
+   height:calc(60px-4px);
+   color: white;
+   font-size: 22px;
+   line-height: calc(60px-4px);
+   border-radius: 30px 5px 10px  ;
+   padding: 2px;
+   margin: 4px;
+   
+  
+   
+
+}
+.menu ul li:hover
+{
+        color: purple;
+       
+}
+
+header
+{
+        background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTkwS4plhmRHFyTuBM5LcRE92T1nGUwGun4w&s);
+        background-size: 100% 100%;
+        height: 70vh;
+}
+footer
+{
+        background-color: black;
+        color: white;
+        text-align: center;
+}
+/* .overflow
+{
+        border: 2px solid red;
+        width: 500px;
+         height: 150px;
+        overflow: scrol
+
+} */
+/* .overflow:hover
+{
+        overflow: visible;
+        height: auto;
+} */
+ .overflow>img
+ {
+        float: left;
+        margin: right 10px;
+}
+.cl
+{
+        border: 2px solid red;
+        clear: both;
+}
+img:hover,cl:hover
+{
+        opacity: 0.5;
+} 
+iframe{
+        width: 100%;
+}
+video
+{
+        width: 33%;
+        border: 1px solid blueviolet;
+}
+nav
+{
+  justify-content: center;
+      
+}

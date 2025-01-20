@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Facebook Clone</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Messages</a>
+                <a href="#">Notifications</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <aside>
+                <div class="profile">
+                    <img src="C:\Users\MUKUL RAJPUT\Desktop\codeing\html\video\RAJPUTAN WALPAPER.jpg" alt="Profile Picture">
+                    <h2>THAKUR MUKUL RAJPUT</h2>
+                </div>
+            </aside>
+
+            <section class="feed">
+                <div class="post-form">
+                    <textarea id="postText" placeholder="What's on your mind?"></textarea>
+                    <button onclick="createPost()">Post</button>
+                </div>
+                <div id="posts">
+                    <!-- Posts will be dynamically added here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

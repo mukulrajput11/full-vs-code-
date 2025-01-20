@@ -1,0 +1,56 @@
+header
+{
+        text-align: center;
+        background-color: rgb(12, 31, 203);
+        border-color: red;
+        border: 2px solid blue
+        
+}
+
+nav
+{
+        background-color: azure;
+        border: 2px solid red;
+        text-align:center ;
+        border-color: black;
+        color: turquoise;
+        border-collapse: collapse;
+}
+
+body
+{
+        background-color: rgb(234, 18, 230);
+        border-collapse: collapse;
+        
+}
+
+section
+{
+        border: 2px solid blue;
+        border-color: red;
+        padding: 2px;
+        text-align: center;
+        margin: 2px 2px;
+        text-size-adjust: 3px;
+        margin: 4px 4px;
+        border-collapse: collapse;
+
+}
+
+footer
+{
+        text-align: center;
+        border: 2px solid greenyellow ;
+}
+
+
+h2
+{
+        border: 2px solid rosybrown;
+        font-size: xx-large;
+        padding: 6px;
+        border-collapse: collapse;
+}
+
+
+        
